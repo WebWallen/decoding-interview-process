@@ -33,3 +33,7 @@ function findMammals (arr) {
 }
 
 console.log(findMammals(animals));
+
+function findMammalsFilter (arr) {
+    return arr.filter(animal => animal.mammal === true);
+}
